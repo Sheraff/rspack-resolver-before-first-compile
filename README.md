@@ -1,6 +1,6 @@
 # Rspack: a resolver used before the first compilation never sees new files
 
-Issue: (link added once filed)
+Issue: https://github.com/web-infra-dev/rspack/issues/16510
 
 ```sh
 npm install
