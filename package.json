@@ -1,0 +1,12 @@
+{
+  "name": "rspack-resolver-before-first-compile",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "repro": "node repro.mjs",
+    "control": "LATE=1 node repro.mjs"
+  },
+  "dependencies": {
+    "@rspack/core": "2.3.1"
+  }
+}
